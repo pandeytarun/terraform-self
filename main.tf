@@ -101,3 +101,9 @@ resource "aws_instance" "web-1" {
     CostCenter = "ABCD"
   }
 }
+
+###########
+#GIving logs through 
+# mkdir logs
+# export TF_LOG=TRACE
+#export TF_LOG_PATH="terraform.txt"
